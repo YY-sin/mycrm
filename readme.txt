@@ -1,4 +1,4 @@
-ch07-ssm: SSM整合开发。
+crm: SSM整合开发。
 SSM： SpringMVC + Spring + MyBatis.
 
 SpringMVC:视图层，界面层，负责接收请求，显示处理结果的。
@@ -20,7 +20,6 @@ springmvc容器是spring容器的子容器， 类似java中的继承。 子可�
 在子容器中的Controller可以访问父容器中的Service对象， 就可以实现controller使用service对象
 
 实现步骤：
-0.使用springdb的mysql库， 表使用student（id auto_increment, name, age）
 1.新建maven web项目
 2.加入依赖
   springmvc，spring，mybatis三个框架的依赖，jackson依赖，mysql驱动，druid连接池
